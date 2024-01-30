@@ -5,7 +5,7 @@ module SpreeImportProducts
       source_root File.expand_path("../templates", __FILE__)#For coping the MIME type file in host application
 
       def add_migrations
-        run 'bundle exec rake railties:install:migrations FROM=spree_import_products'
+        run 'bundle exec rake railties:install:migrations FROM=spree_import_products_4'
       end
 
       def run_migrations

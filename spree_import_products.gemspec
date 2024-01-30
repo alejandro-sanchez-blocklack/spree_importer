@@ -2,11 +2,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree_import_products/version'
+require 'spree_import_products_4/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_import_products'
+  s.name        = 'spree_import_products_4'
   s.version     = SpreeImportProducts.version
   s.summary     = 'A spree extension that provides hustle free product import functionality'
   s.description = 'Import spree product via excel sheet'
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.author    = 'Vishal Garg'
   s.email     = 'vishal@bluebash.co'
-  s.homepage  = 'https://github.com/spree-edge/spree_import_products'
+  s.homepage  = 'https://github.com/alejandro-sanchez-blocklack/spree_importer'
   s.license = 'BSD-3-Clause'
 
   s.files       = `git ls-files`.split("\n").reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }

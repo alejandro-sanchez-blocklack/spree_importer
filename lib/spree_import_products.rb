@@ -1,4 +1,4 @@
 require 'spree_core'
 require 'spree_extension'
-require 'spree_import_products/engine'
-require 'spree_import_products/version'
+require 'spree_import_products_4/engine'
+require 'spree_import_products_4/version'
