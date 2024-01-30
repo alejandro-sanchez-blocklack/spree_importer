@@ -9,7 +9,7 @@ A Spree extension that provides the ability to import products from an xlsx file
 1. Add this extension to your Gemfile with this line:
 
     ```ruby
-    gem 'spree_import_products_4'
+    gem 'spree_import_products'
     ```
 
 2. Install the gem using Bundler
@@ -21,7 +21,7 @@ A Spree extension that provides the ability to import products from an xlsx file
 3. Copy & run migrations
 
     ```ruby
-    bundle exec rails g spree_import_products_4:install
+    bundle exec rails g spree_import_products:install
     ```
 
 4. Restart your server
@@ -34,7 +34,7 @@ A Spree extension that provides the ability to import products from an xlsx file
 
 https://user-images.githubusercontent.com/80153749/190127958-4ed6b4be-f5aa-49e4-8230-51374fd274cc.mp4
 
-[Download Sample File](https://github.com/spree-edge/spree_import_products_4/files/9565883/sample.xlsx)
+[Download Sample File](https://github.com/spree-edge/spree_import_products/files/9565883/sample.xlsx)
 
 
 ## Rule to device xlsx file
@@ -153,7 +153,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'spree_import_products_4/factories'
+require 'spree_import_products/factories'
 ```
 
 ## Releasing

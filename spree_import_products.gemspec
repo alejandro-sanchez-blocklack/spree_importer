@@ -6,7 +6,7 @@ require 'spree_import_products/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_import_products_4'
+  s.name        = 'spree_import_products'
   s.version     = SpreeImportProducts.version
   s.summary     = 'A spree extension that provides hustle free product import functionality'
   s.description = 'Import spree product via excel sheet'

@@ -2,14 +2,14 @@ module SpreeImportProducts
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_import_products_4'
+    engine_name 'spree_import_products'
 
     # use rspec for tests
     config.generators do |g|
       g.test_framework :rspec
     end
 
-    initializer 'spree_import_products_4.environment', before: :load_config_initializers do |_app|
+    initializer 'spree_import_products.environment', before: :load_config_initializers do |_app|
       SpreeImportProducts::Config = SpreeImportProducts::Configuration.new
     end
 
